@@ -1,10 +1,10 @@
 package math_10430_test
 
 import (
-	"fmt"
+	a "codePlus/math_10430"
 	"testing"
 )
 
 func TestT(t *testing.T) {
-	fmt.Println("aaa")
+	a.Calc(4, 5, 8)
 }
