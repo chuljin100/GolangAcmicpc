@@ -1,0 +1,10 @@
+{
+    "go.gopath": "${workspaceFolder}", // gopath 설정을 vscode 의 workspace 로 한다. 
+    "go.inferGopath": true, // 이 옵션을 켜야 위의 설정이 먹히는 것 같다.
+    "terminal.integrated.env.windows": {
+        "GOPATH": "${workspaceFolder}" // windows 에서 vscode 프로그램 내 터미널을 GOPATH 환경 변수 변경
+    },
+    "terminal.integrated.env.osx": {
+        "GOPATH": "${workspaceFolder}" // osx 에서 vscode 프로그램 내 터미널을 GOPATH 환경 변수 변경
+    },
+}
