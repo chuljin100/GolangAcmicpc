@@ -1,7 +1,7 @@
 package math_10430_test
 
 import (
-	a "codePlus/math_10430"
+	a "codePlus/math/math_10430"
 	"testing"
 )
 
